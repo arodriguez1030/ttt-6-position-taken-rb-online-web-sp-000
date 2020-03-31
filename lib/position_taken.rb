@@ -5,7 +5,7 @@ def position_taken? (board, index)
  if board[index] == "X"
    puts "true"
   elsif board[index] != " "
-   puts "false"
+   puts "true"
  else board[index] == nil
    puts "false"
  end
